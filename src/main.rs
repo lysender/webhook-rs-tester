@@ -1,7 +1,7 @@
 use reqwest::Client;
 use serde::Serialize;
 
-const APP_URL: &'static str = "http://localhost:4200/webhook";
+const APP_URL: &'static str = "http://localhost:9000/webhook";
 
 #[derive(Serialize)]
 struct CounterPayload {
